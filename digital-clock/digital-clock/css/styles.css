@@ -1,0 +1,117 @@
+
+body {
+    color: #00F9FF;
+    background-image: url(https://media.giphy.com/media/FlodpfQUBSp20/giphy.gif);
+    background-position: center;
+    background-size: cover;
+    font-family: 'digital-7', sans-serif;
+}
+
+main {
+	text-align: center;
+    position: absolute;
+    margin-left: 162.5px;
+    margin-top: 125px;
+    padding: 22px;
+    border: solid 7px #00F9FF;
+    background-color: #000000;
+}
+
+.month {
+	font-size: 19px;
+	text-align: center;
+	position: absolute;
+}
+
+.specificmonth{
+	margin: 0 auto;
+	color: #131212;
+}
+
+.monthday {
+	font-size: 19px;
+	margin-left: 150px;
+	margin-right: 100px;
+	text-align: center;
+	position: absolute;
+}
+
+.specificday {
+	margin: 0 auto;
+	color: #131212
+}
+
+#year{
+	font-size: 20px;
+	margin-left: 375px;
+	text-align: center;
+	position: absolute;
+}
+.weekdays {
+	margin-top: 18px;
+	color: #002d37;
+}
+
+.weekdays .day {
+	display: inline-block;
+}
+
+.weekdays .day p {
+	font-size: 16px;
+	font-family: 'digital-7', sans-serif;
+	text-transform: uppercase;
+}
+.clock {
+	margin: 5px 0;
+}
+
+.clock div{
+	display: inline-block;
+	position: relative;
+}
+
+.clock div p{
+	font-size: 100px;
+	position: relative;
+	z-index: 100;
+}
+
+div.clock .background {
+	color: #002831;
+	position: absolute;
+	top: 0;
+	z-index: 50;
+}
+
+@font-face {
+	font-family:'digital-7';
+	src: url('../fonts/digital-7.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+.am-pm {
+	font-family: sans-serif;
+	text-transform: uppercase;
+	width: 20px;
+}
+
+.am-pm div p {
+	font-size: 18px;
+	font-weight: bold;
+	font-family:'digital-7';
+	src: url('../fonts/digital-7.ttf');
+	width: 100%;
+}
+
+.am, .pm {
+	color: #131212;
+}
+
+.glow {
+	color: #00F9FF;
+	z-index: 10;
+}
